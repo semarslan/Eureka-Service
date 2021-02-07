@@ -26,7 +26,7 @@ url: http://localhost:9411/zipkin
 -------------------
 
 * eureka server: localhost:8761
-* hystrix-dashboard: locakhost:9295/hystrix
+* hystrix-dashboard: localhost:9295/hystrix
 * api-gateway: localhost:9191/actuator/hystrix.stream
 
 
