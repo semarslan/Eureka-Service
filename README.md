@@ -2,7 +2,8 @@
 
 ### Run eureka-service first, then the others in order
 
-2. https://github.com/semarslan/Cloud-Config-Server
+
+2. https://github.com/semarslan/Cloud-Config-Server 
 
 3. https://github.com/semarslan/Cloud-Gateway-Service
 
@@ -10,7 +11,26 @@
 
 5. https://github.com/semarslan/User-Service
 
-### Department Service:
+6. https://github.com/semarslan/Hystrix-Dashboard
+
+
+-----------
+
+## Zipkin Server:
+
+run docker run -d -p 9411:9411 openzipkin/zipkin
+
+url: http://localhost:9411/zipkin
+
+
+-------------------
+
+* eureka server: localhost:8761
+* hystrix-dashboard: locakhost:9295/hystrix
+* api-gateway: localhost:9191/actuator/hystrix.stream
+
+
+* Department Service:
 
 Create Department -- 
 
@@ -24,7 +44,7 @@ http://localhost:9191/departments
 
 Get Department By Id : http://localhost:9191/departments/1
 
-### User service: 
+* User service: 
 
 Create User --
 
@@ -42,3 +62,6 @@ Get User By Id: http://localhost:9191/users/1
 ------------
 
 ## https://github.com/semarslan/config-server this repo is used. Because eureka-server integration is here.
+
+
+
