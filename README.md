@@ -1,6 +1,6 @@
 # Eureka-Service
 
-Run first Euraka-Service then the others in order;
+### Run eureka-service first, then the others in order
 
 2. https://github.com/semarslan/Cloud-Config-Server
 
