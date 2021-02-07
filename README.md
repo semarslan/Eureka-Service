@@ -18,7 +18,7 @@
 
 ## Zipkin Server:
 
-run docker run -d -p 9411:9411 openzipkin/zipkin
+docker run -d -p 9411:9411 openzipkin/zipkin
 
 url: http://localhost:9411/zipkin
 
