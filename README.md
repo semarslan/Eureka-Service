@@ -18,8 +18,8 @@ http://localhost:9191/departments
 
 {
 	"departmentName" : "IT",
-	"departmentAddress" : "test address",
-	"departmentCode" : "IT-006"
+	"departmentAddress" : "Ankara",
+	"departmentCode" : "IT-06"
 }
 
 Get Department By Id : http://localhost:9191/departments/1
@@ -32,8 +32,8 @@ http://localhost:9191/users
 
 {
 	"name" : "sema",
-	"lastName" :"ars",
-	"email" : "test@test.c",
+	"lastName" :"arslan",
+	"email" : "sema.arslan@bil.omu.edu.tr",
 	"departmentId" : "1"
 }
 
