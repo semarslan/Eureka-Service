@@ -40,3 +40,4 @@ http://localhost:9191/users
 Get User By Id: http://localhost:9191/users/1
 
 
+## https://github.com/semarslan/config-server this repo is used. Because eureka-server integration is here.
