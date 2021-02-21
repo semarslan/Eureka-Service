@@ -53,7 +53,7 @@ http://localhost:9191/users
 {
 	"name" : "sema",
 	"lastName" :"arslan",
-	"email" : "sema.arslan@bil.omu.edu.tr",
+	"email" : "94.sema.arslan@gmail.com",
 	"departmentId" : "1"
 }
 
